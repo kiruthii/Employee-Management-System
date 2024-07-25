@@ -23,12 +23,6 @@ This project is a simple Employee Database Management System built with Python a
    ```sh
    CREATE DATABASE employee_db;
 
-3.  ```sh
-   USE employee_db;
-
-4.  ```sh
-   CREATE TABLE employees (id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100),age INT,department VARCHAR(100));
-
 ## Usage
 1. **Run the script:**
    ```sh

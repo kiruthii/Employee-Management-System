@@ -20,17 +20,15 @@ This project is a simple Employee Database Management System built with Python a
    pip install mysql-connector-python
 
 2. **Set up MySQL Database:**
-   ```sh
-   CREATE DATABASE employee_db;
-
-  USE employee_db;
   
-  CREATE TABLE employees (
+   CREATE DATABASE employee_db;
+   USE employee_db;
+   CREATE TABLE employees (
       id INT AUTO_INCREMENT PRIMARY KEY,
       name VARCHAR(100),
       age INT,
       department VARCHAR(100)
-  );
+   );
 
 ## Usage
 1. **Run the script:**
